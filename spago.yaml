@@ -1,0 +1,30 @@
+package:
+  name: djot
+  publish:
+    version: 0.1.0
+    license: MIT
+    location:
+      githubOwner: sondr3
+      githubRepo: djot-ps
+  dependencies:
+    - console
+    - debug
+    - foreign
+    - foreign-object
+    - maybe
+    - prelude
+    - record
+    - strings
+    - tuples
+    - undefined-is-not-a-problem
+  test:
+    dependencies:
+      - spec
+    main: Test.Main
+workspace:
+  build_opts:
+    strict: true
+  extra_packages: {}
+  lock: true
+  package_set:
+    registry: 48.7.1
